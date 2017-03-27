@@ -1,0 +1,27 @@
+	"id": "b21ab4aa0423507e5f8071ae194ec122a2c60dec37966b035172c8899c549523",
+	"name": "/docker/b21ab4aa0423507e5f8071ae194ec122a2c60dec37966b035172c8899c549523",
+	"aliases": [
+		"cadvisor",
+		"b21ab4aa0423507e5f8071ae194ec122a2c60dec37966b035172c8899c549523"
+	],
+	"namespace": "docker",
+	"spec": {
+		"creation_time": "2016-08-30T23:31:41.764985187Z",
+		"has_cpu": true,
+		"cpu": {
+			"limit": 1024,
+			"max_limit": 0,
+			"mask": "1",
+			"period": 100000
+		},
+		"has_memory": true,
+		"memory": {
+			"limit": 9223372036854771712
+		},
+		"has_network": true,
+		"has_filesystem": true,
+		"has_diskio": true,
+		"has_custom_metrics": false,
+		"image": "google/cadvisor:latest"
+	},
+

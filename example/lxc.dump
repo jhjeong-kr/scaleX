@@ -1,0 +1,31 @@
+	"name": "/lxc/u1",
+	"subcontainers": [
+		{
+			"name": "/lxc/u1/init.scope"
+		},
+		{
+			"name": "/lxc/u1/system.slice"
+		},
+		{
+			"name": "/lxc/u1/user.slice"
+		}
+	],
+	"spec": {
+		"creation_time": "2016-10-05T01:43:08.827273418Z",
+		"has_cpu": true,
+		"cpu": {
+			"limit": 1024,
+			"max_limit": 0,
+			"mask": "0-1",
+			"period": 100000
+		},
+		"has_memory": true,
+		"memory": {
+			"limit": 9223372036854771712
+		},
+		"has_network": false,
+		"has_filesystem": false,
+		"has_diskio": true,
+		"has_custom_metrics": false
+	},
+

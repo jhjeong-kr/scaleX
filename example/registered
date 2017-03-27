@@ -1,0 +1,123 @@
+{
+	"b21ab4aa0423507e5f8071ae194ec122a2c60dec37966b035172c8899c549523": {
+		"id": "b21ab4aa0423507e5f8071ae194ec122a2c60dec37966b035172c8899c549523",
+		"type": "docker",
+		"path": "/sys/fs/cgroup/cpuset/docker",
+		"cgroup_cur": {
+			"cpuset": {
+				"cpus": "",
+				"thresh_min": 0,
+				"thresh_max": 0,
+				"min_cores": 0,
+				"max_cores": 0
+			},
+			"cpu": {
+				"shares": "",
+				"thresh_min": 0,
+				"thresh_max": 0
+			}
+		},
+		"cgroup_req": {
+			"cpuset": {
+				"cpus": "",
+				"thresh_min": 0,
+				"thresh_max": 0,
+				"min_cores": 0,
+				"max_cores": 0
+			},
+			"cpu": {
+				"shares": "",
+				"thresh_min": 0,
+				"thresh_max": 0
+			}
+		},
+		"cAdvisor": {
+			"name": "",
+			"spec": {
+				"creation_time": "0001-01-01T00:00:00Z",
+				"has_cpu": false,
+				"cpu": {
+					"limit": 0,
+					"max_limit": 0
+				},
+				"has_memory": false,
+				"memory": {},
+				"has_network": false,
+				"has_filesystem": false,
+				"has_diskio": false,
+				"has_custom_metrics": false
+			}
+		},
+		"cpu_usage_short": 0,
+		"cpu_usage_long": 0,
+		"Timestamp": "0001-01-01T00:00:00Z"
+	},
+	"u1": {
+		"id": "u1",
+		"type": "lxc",
+		"path": "/sys/fs/cgroup/cpuset/lxc",
+		"cgroup_cur": {
+			"cpuset": {
+				"cpus": "",
+				"thresh_min": 0,
+				"thresh_max": 0,
+				"min_cores": 0,
+				"max_cores": 0
+			},
+			"cpu": {
+				"shares": "",
+				"thresh_min": 0,
+				"thresh_max": 0
+			}
+		},
+		"cgroup_req": {
+			"cpuset": {
+				"cpus": "",
+				"thresh_min": 0,
+				"thresh_max": 0,
+				"min_cores": 0,
+				"max_cores": 0
+			},
+			"cpu": {
+				"shares": "",
+				"thresh_min": 0,
+				"thresh_max": 0
+			}
+		},
+		"cAdvisor": {
+			"name": "/lxc/u1",
+			"subcontainers": [
+				{
+					"name": "/lxc/u1/init.scope"
+				},
+				{
+					"name": "/lxc/u1/system.slice"
+				},
+				{
+					"name": "/lxc/u1/user.slice"
+				}
+			],
+			"spec": {
+				"creation_time": "2016-10-05T02:05:23.811299876Z",
+				"has_cpu": true,
+				"cpu": {
+					"limit": 1024,
+					"max_limit": 0,
+					"mask": "0-1",
+					"period": 100000
+				},
+				"has_memory": true,
+				"memory": {
+					"limit": 9223372036854771712
+				},
+				"has_network": false,
+				"has_filesystem": false,
+				"has_diskio": true,
+				"has_custom_metrics": false
+			}
+		},
+		"cpu_usage_short": 0,
+		"cpu_usage_long": 0,
+		"Timestamp": "0001-01-01T00:00:00Z"
+	}
+}
